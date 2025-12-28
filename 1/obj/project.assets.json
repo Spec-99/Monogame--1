@@ -130,6 +130,16 @@
         "runtime": {
           "lib/netcoreapp2.0/_._": {}
         }
+      },
+      "MonoGameLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/MonoGameLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MonoGameLibrary.dll": {}
+        }
       }
     }
   },
@@ -286,28 +296,34 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "MonoGameLibrary/1.0.0": {
+      "type": "project",
+      "path": "../MonoGameLibrary/MonoGameLibrary.csproj",
+      "msbuildProject": "../MonoGameLibrary/MonoGameLibrary.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
       "MonoGame.Content.Builder.Task >= 3.8.*",
-      "MonoGame.Framework.DesktopGL >= 3.8.*"
+      "MonoGame.Framework.DesktopGL >= 3.8.*",
+      "MonoGameLibrary >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "/Users/meditate./.nuget/packages/": {}
+    "/Users/timurfergione/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/meditate./Desktop/Code Projects/Monogame #1/1/1.csproj",
+      "projectUniqueName": "/Users/timurfergione/Desktop/CODE/Monogame--1/1/1.csproj",
       "projectName": "1",
-      "projectPath": "/Users/meditate./Desktop/Code Projects/Monogame #1/1/1.csproj",
-      "packagesPath": "/Users/meditate./.nuget/packages/",
-      "outputPath": "/Users/meditate./Desktop/Code Projects/Monogame #1/1/obj/",
+      "projectPath": "/Users/timurfergione/Desktop/CODE/Monogame--1/1/1.csproj",
+      "packagesPath": "/Users/timurfergione/.nuget/packages/",
+      "outputPath": "/Users/timurfergione/Desktop/CODE/Monogame--1/1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/meditate./.nuget/NuGet/NuGet.Config"
+        "/Users/timurfergione/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net9.0"
@@ -318,7 +334,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/timurfergione/Desktop/CODE/Monogame--1/MonoGameLibrary/MonoGameLibrary.csproj": {
+              "projectPath": "/Users/timurfergione/Desktop/CODE/Monogame--1/MonoGameLibrary/MonoGameLibrary.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -362,7 +382,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.303/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.308/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
