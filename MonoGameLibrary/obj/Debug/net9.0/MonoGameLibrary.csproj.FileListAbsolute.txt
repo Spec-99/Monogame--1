@@ -1,0 +1,13 @@
+/Users/timurfergione/Desktop/CODE/Monogame--1/MonoGameLibrary/bin/Debug/net9.0/MonoGameLibrary.deps.json
+/Users/timurfergione/Desktop/CODE/Monogame--1/MonoGameLibrary/bin/Debug/net9.0/MonoGameLibrary.dll
+/Users/timurfergione/Desktop/CODE/Monogame--1/MonoGameLibrary/bin/Debug/net9.0/MonoGameLibrary.pdb
+/Users/timurfergione/Desktop/CODE/Monogame--1/MonoGameLibrary/obj/Debug/net9.0/MonoGameLibrary.csproj.AssemblyReference.cache
+/Users/timurfergione/Desktop/CODE/Monogame--1/MonoGameLibrary/obj/Debug/net9.0/MonoGameLibrary.GeneratedMSBuildEditorConfig.editorconfig
+/Users/timurfergione/Desktop/CODE/Monogame--1/MonoGameLibrary/obj/Debug/net9.0/MonoGameLibrary.AssemblyInfoInputs.cache
+/Users/timurfergione/Desktop/CODE/Monogame--1/MonoGameLibrary/obj/Debug/net9.0/MonoGameLibrary.AssemblyInfo.cs
+/Users/timurfergione/Desktop/CODE/Monogame--1/MonoGameLibrary/obj/Debug/net9.0/MonoGameLibrary.csproj.CoreCompileInputs.cache
+/Users/timurfergione/Desktop/CODE/Monogame--1/MonoGameLibrary/obj/Debug/net9.0/MonoGameLibrary.sourcelink.json
+/Users/timurfergione/Desktop/CODE/Monogame--1/MonoGameLibrary/obj/Debug/net9.0/MonoGameLibrary.dll
+/Users/timurfergione/Desktop/CODE/Monogame--1/MonoGameLibrary/obj/Debug/net9.0/refint/MonoGameLibrary.dll
+/Users/timurfergione/Desktop/CODE/Monogame--1/MonoGameLibrary/obj/Debug/net9.0/MonoGameLibrary.pdb
+/Users/timurfergione/Desktop/CODE/Monogame--1/MonoGameLibrary/obj/Debug/net9.0/ref/MonoGameLibrary.dll
