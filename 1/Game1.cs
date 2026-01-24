@@ -38,22 +38,41 @@ public class Game1 : Core
     }
 
     protected override void Draw(GameTime gameTime)
-    {
+    {   
+        // Clear the Back Buffer
         GraphicsDevice.Clear(Color.White);
 
-        // Begin the sprite batch... to prepare for rendering 
-        SpriteBatch.Begin();
+        //The bounds of the icon whin the texture
+        Rectangle iconSourceRect = new Rectangle(0, 0, 128, 128);
 
-        // Draw the logo texture
-        SpriteBatch.Draw(_logo, //texture 
-         new Vector2(       //position
-            (Window.ClientBounds.Width * 0.5f) - (_logo.Width * 0.5f),
-            (Window.ClientBounds.Height * 0.5f) - (_logo.Height * 0.5f)
-                    ),
-        null,               //SourceRectangle 
+        //The bounds of the word mark within the texture.
+        Rectangle wordmarkSourceRect = new Rectangle(150, 34, 458, 58);
+
+        // Begin the sprite batch... to prepare for rendering 
+        SpriteBatch.Begin(sortMode: SpriteSortMode.FrontToBack);
+
+        
+        SpriteBatch.Draw(
+            _logo, //texture 
+         new Vector2(Window.ClientBounds.Width, Window.ClientBounds.Height) * 0.5f, //position
+        iconSourceRect,     //SourceRectangle 
         Color.DarkGreen,    //Color
         0.0f,               //Rotation 
-        Vector2.Zero,       //Origin 
+        new Vector2(
+            iconSourceRect.Width,
+            iconSourceRect.Height) * 0.5f, //origin
+        1.0f,               //Scale 
+        SpriteEffects.None, //Effects
+        1.0f                //LayerDepth
+        );
+
+        SpriteBatch.Draw(
+            _logo, //texture 
+        new Vector2(Window.ClientBounds.Width, Window.ClientBounds.Height) * 0.5f, //position 
+       wordmarkSourceRect,               //SourceRectangle 
+       Color.DarkGreen,    //Color
+       0.0f,               //Rotation 
+       new Vector2(wordmarkSourceRect.Width,wordmarkSourceRect.Height) * 0.5f, //origin
         1.0f,               //Scale 
         SpriteEffects.None, //Effects
         0.0f                //LayerDepth
